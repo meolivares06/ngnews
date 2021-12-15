@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+img {
+  max-width: 100%;
+}
+.sources {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}

@@ -1,0 +1,24 @@
+<p>topics works!</p>
+<section class="topics">
+  <article class="topic" *ngFor="let article of articles">
+    <div class="topic__author">
+      <h6>{{article.author}}</h6>
+    </div>
+    <div class="topic__title">
+      <h2>{{article.title}}</h2>
+    </div>
+    <div class="topic__urlToImage">
+      <img src="{{article.urlToImage}}" alt="">
+    </div>
+    <div class="topic description">
+      <p>{{article.description}}</p>
+    </div>
+    <div class="topic__url">
+    </div>
+    <a href="{{article.url}}">Original</a>
+    <div class="topic__publishedAt">
+      <small>{{article.publishedAt}}</small>
+    </div>
+  </article>
+</section>
+

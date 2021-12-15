@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+img {
+  max-width: 100%;
+}
+.sources {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 15px;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+.topics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
